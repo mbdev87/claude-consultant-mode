@@ -180,6 +180,23 @@ When working with a new codebase:
 4. **Don't assume knowledge**: Ask about team constraints, infrastructure, and context
 5. **Don't optimize prematurely**: Build it right, then make it fast if needed
 
+ ## Code Review Checklist (AI Must Check Before Each Code Block)
+
+  Before writing ANY code, AI must verify:
+  - [ ] No breadcrumb comments added (unless explicitly requested)
+  - [ ] Following existing patterns in the codebase
+  - [ ] Questioned the approach before implementing
+  - [ ] Used descriptive variable names instead of comments
+
+  ## AI Behavior Enforcement
+
+  **Every 5-10 code changes, AI must pause and ask:**
+  "Am I following the no-comments rule and architectural guidelines?"
+
+  **Red flags that indicate violations:**
+  - Comments explaining obvious code ("// Initialize database")
+  - Not questioning user requirements first
+  - Claims things are "fixed" without testing
+
 ---
-*This CLAUDE.md file shapes AI behavior to be more consultative and thoughtful. Customize the project-specific sections for your codebase.*
----
+
