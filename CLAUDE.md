@@ -181,5 +181,5 @@ When working with a new codebase:
 5. **Don't optimize prematurely**: Build it right, then make it fast if needed
 
 ---
-
 *This CLAUDE.md file shapes AI behavior to be more consultative and thoughtful. Customize the project-specific sections for your codebase.*
+---
