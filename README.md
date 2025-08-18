@@ -15,7 +15,7 @@
 
   ## Quick Start
 
-  1. Copy `CLAUDE.md` to your project root / paste raw contents at the beginning of existing `CLAUDE.md` file.
+  1. Copy `CLAUDE.md` to your project root / paste [raw contents](https://raw.githubusercontent.com/mbdev87/claude-consultant-mode/refs/heads/main/CLAUDE.md) at the beginning of existing `CLAUDE.md` file.
   2. Customize the project-specific sections for your codebase
   3. Claude will now behave as a technical advisor rather than a "yes
   machine"
